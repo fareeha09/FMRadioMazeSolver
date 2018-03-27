@@ -10,9 +10,9 @@ Returns the Boolean value of the statement “the maze is navigable, having a le
 Navigate a maze from start to finish. 
 <details>
    <summary>"Legal"</summary>
-   <p> * don’t cross the walls</p>
-   <p> * right-angle turns only</p>
-   <p> * a path cannot go through the same point twice</p>
+   <p>Don’t cross the walls</p>
+   <p>Right-angle turns only</p>
+   <p>A path cannot go through the same point twice</p>
 </details> 
 
 ## Recursive Abstraction
