@@ -5,14 +5,12 @@ Mandy Mai,
 Fareeha Tabassum
 
 ## Statement of Problem
-Returns the Boolean value of the statement “the maze is navigable, having a 
-<details>
-   <summary>**Strong text**legal**Strong text*</summary>
+Returns the Boolean value of the statement “the maze is navigable, having a <details>
+   <summary>legal</summary>
    <p>* don’t cross the walls</p>
    <p>* right-angle turns only</p>
    <p>* a path cannot go through the same point twice</p>
-</details>
-travel path that is continuous from start point to existing treasure”.
+</details> travel path that is continuous from start point to existing treasure”.
 
 Navigate a maze from start to finish. 
 
