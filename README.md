@@ -7,7 +7,7 @@ Fareeha Tabassum
 ## Statement of Problem
 Returns the Boolean value of the statement “the maze is navigable, having a 
 <details>
-   <summary>;egal</summary>
+   <summary>**Strong text**legal</summary>
    <p>* don’t cross the walls</p>
    <p>* right-angle turns only</p>
    <p>* a path cannot go through the same point twice</p>
