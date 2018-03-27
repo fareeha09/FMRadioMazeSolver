@@ -5,14 +5,16 @@ Mandy Mai,
 Fareeha Tabassum
 
 ## Statement of Problem
-Returns the Boolean value of the statement “the maze is navigable, having a legal travel path that is continuous from start point to existing treasure”.
+Returns the Boolean value of the statement “the maze is navigable, having a 
+<details>
+   <summary>;egal</summary>
+   <p>* don’t cross the walls</p>
+   <p>* right-angle turns only</p>
+   <p>* a path cannot go through the same point twice</p>
+</details>
+travel path that is continuous from start point to existing treasure”.
 
 Navigate a maze from start to finish. 
-
-Legal means:
-* don’t cross the walls
-* right-angle turns only
-* a path cannot go through the same point twice
 
 ## Recursive Abstraction
 When asked to navigate a maze from start to finish, the recursive abstraction can .
