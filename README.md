@@ -5,7 +5,7 @@ Mandy Mai,
 Fareeha Tabassum
 
 ## statement of problem
-Returns the Boolean value of the statement “the maze is navigable, having a legal travel path that is continuous from start point to existing treasure”
+Returns the Boolean value of the statement “the maze is navigable, having a legal travel path that is continuous from start point to existing treasure”.
 
 Navigate a maze from start to finish. 
 
@@ -15,6 +15,7 @@ Legal means:
 * a path cannot go through the same point twice
 
 ## recursive abstraction
+When asked to navigate a maze from start to finish, the recursive abstraction can .
 
 ## base case
 
