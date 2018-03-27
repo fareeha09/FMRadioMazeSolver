@@ -12,3 +12,11 @@ right-angle turns only,
 a path cannot go through the same point twice.
 
 ## recursive abstraction
+
+## base case
+
+## English or pseudocode description of algorithm
+
+## class(es), with fields and methods
+
+## version*n* wish list
