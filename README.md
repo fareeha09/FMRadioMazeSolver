@@ -25,9 +25,9 @@ take a step
 
 check if legal
 
-   if true, take another step
+      if true, take another step
    
-   if false, go back a step
+      if false, go back a step
 
 ## Class(es), with fields and methods
 
