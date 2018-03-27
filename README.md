@@ -16,11 +16,15 @@ Navigate a maze from start to finish.
 </details> 
 
 ## Recursive Abstraction
-When asked to navigate a maze from start to finish, the recursive abstraction can .
+When asked to navigate a maze from start to finish, the recursive abstraction can navigate a maze that is one step shorter from start to finish.
 
 ## Base Case
 
 ## English or pseudocode description of algorithm
+take a step
+check if legal
+   if true, take another step
+   if false, go back a step
 
 ## Class(es), with fields and methods
 
