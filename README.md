@@ -20,14 +20,19 @@ When asked to navigate a maze from start to finish, the recursive abstraction ca
 
 ## Base Case
 
+The explorer is at the same position as the treasure or there are no legal moves.
+
 ## English or pseudocode description of algorithm
-take a step
+If at the treasure, 
+return true.
 
 check if **legal**
 
 * if true, take another step
    
 * if false, go back a step
+
+take a step, recurse again.
 
 ## Class(es), with fields and methods
 
