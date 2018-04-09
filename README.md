@@ -24,6 +24,7 @@ The explorer is at the same position as the treasure or there are no legal moves
 
 ## English or pseudocode description of algorithm
 If at the treasure, 
+
 return true.
 
 check if **legal**
