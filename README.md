@@ -27,15 +27,17 @@ The explorer is at the same position as the treasure or there are no legal moves
 
         return true.
 
-If not at treasure,
+    If not at treasure,
 
-check if **legal**
+        take a step
 
-* if true, take another step
+        check if **legal**
+
+            if true, take another step
    
-* if false, go back a step
+            if false, go back a step
 
-take a step, recurse again.
+    recurse again.
 
 ## Class(es), with fields and methods
 
