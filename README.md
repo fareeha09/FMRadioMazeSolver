@@ -37,7 +37,7 @@ The explorer is at the same position as the treasure or there are no legal moves
    
             if false, go back a step
 
-    recurse again.
+    recurse/repeat
 
 ## Class(es), with fields and methods
 
