@@ -44,3 +44,5 @@ The explorer is in the same position as the treasure, there are no legal moves p
 ## Class(es), with fields and methods
 
 ## Version*n* wish list
+
+## Known Bugs
