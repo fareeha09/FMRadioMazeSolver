@@ -20,7 +20,7 @@ When asked to navigate a maze from start to finish, the recursive abstraction ca
 
 ## Base Case
 
-The explorer is at the same position as the treasure or there are no legal moves.
+The explorer is in the same position as the treasure or there are no legal moves possible.
 
 ## English or pseudocode description of algorithm
     check if at treasure:
