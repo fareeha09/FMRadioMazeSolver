@@ -16,11 +16,11 @@ Navigate a maze from start to finish.
 </details> 
 
 ## Recursive Abstraction
-When asked to navigate a maze from start to finish, the recursive abstraction can take a legal step and then navigate a maze that is one step shorter from start to finish.
+When asked to navigate a maze from start to finish, the recursive abstraction can take a legal step and then navigate a maze that starts from the new position to the treasure.
 
 ## Base Case
 
-The explorer is in the same position as the treasure or there are no legal moves possible.
+The explorer is in the same position as the treasure, there are no legal moves possible, or there is no treasure that can be reached.
 
 ## English or pseudocode description of algorithm
     check if at treasure:
