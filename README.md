@@ -16,7 +16,7 @@ Navigate a maze from start to finish.
 </details> 
 
 ## Recursive Abstraction
-When asked to navigate a maze from start to finish, the recursive abstraction can navigate a maze that is one step shorter from start to finish.
+When asked to navigate a maze from start to finish, the recursive abstraction can take a legal step and then navigate a maze that is one step shorter from start to finish.
 
 ## Base Case
 
