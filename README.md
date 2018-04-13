@@ -46,21 +46,25 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
    <summary>Maze</summary>
    <p>Fields</p>
    <p>Methods</p>
+</details> 
 
 <details>
    <summary>UserOfMaze</summary>
    <p>Fields</p>
    <p>Methods</p>
+</details> 
 
 <details>
    <summary>MazeSolver</summary>
    <p>Fields</p>
    <p>Methods</p>
+</details> 
 
 <details>
    <summary>UserOfMazeSolver</summary>
    <p>Fields</p>
    <p>Methods</p>
+</details> 
 
 ## Version*n* wish list
 
