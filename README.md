@@ -44,26 +44,32 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
 
 <details>
    <summary>Maze</summary>
-   <p>Fields</p>
-   <p>Methods</p>
+   <p>Fields: TREASURE, WALL, STEPPING_STONE, EAST, NORTH, WEST, SOUTH, maze, MAX_RANKS, rankCount, explorerPosition</p>
+   <p>Methods: constructors, toString, go, dropA, explorerIsOnA</p>
+</details> 
+
+<details>
+   <summary>Vector (private class in Maze)</summary>
+   <p>Fields: rank, file</p>
+   <p>Methods: constructors, add, equals</p>
 </details> 
 
 <details>
    <summary>UserOfMaze</summary>
-   <p>Fields</p>
-   <p>Methods</p>
+   <p>Fields: displayer</p>
+   <p>Methods: main, moveTest, dropTest, copyConstructTest, displayerTest, snapshotDemo</p>
 </details> 
 
 <details>
    <summary>MazeSolver</summary>
-   <p>Fields</p>
-   <p>Methods</p>
+   <p>Fields: solution, displayer, step</p>
+   <p>Methods: constructor, solve, display</p>
 </details> 
 
 <details>
    <summary>UserOfMazeSolver</summary>
-   <p>Fields</p>
-   <p>Methods</p>
+   <p>Fields: </p>
+   <p>Methods: main</p>
 </details> 
 
 ## Version*n* wish list
