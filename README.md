@@ -42,6 +42,18 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
         
 ## Class(es), with fields and methods
 
+* Maze
+
+* UserOfMaze
+
+* MazeSolver
+
+* UserOfMazeSolver
+
 ## Version*n* wish list
 
+* Be able to scan through entire maze first to check for treasure.
+
 ## Known Bugs
+
+* Can't solve a maze without a treasure.
