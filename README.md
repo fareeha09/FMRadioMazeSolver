@@ -24,7 +24,7 @@ The explorer is in the same position as the treasure, there are no legal moves p
 
 ## English or pseudocode description of algorithm
 
-Run if explorer starts in a valid position. **Assumes there is a treasure present.
+Run if explorer starts in a valid position. **Assumes there is a treasure present.**
     
     check if at treasure:
 
