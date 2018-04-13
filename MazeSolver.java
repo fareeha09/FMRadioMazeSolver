@@ -75,4 +75,10 @@ public class MazeSolver {
 }
 
 // for( int direction = 1; direction <= 8; direction*2) {
+// 	maze.go( direction);
+// 	if( maze.explorerIsOnA() == Maze.WALL) {
+// 		maze = new Maze( undo);
+// 	}else{
+// 		display( maze);
+// 	}
 // }
