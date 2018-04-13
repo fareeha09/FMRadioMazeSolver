@@ -23,23 +23,22 @@ When asked to navigate a maze from start to finish, the recursive abstraction ca
 The explorer is in the same position as the treasure, there are no legal moves possible, or there is no treasure that can be reached.
 
 ## English or pseudocode description of algorithm
-    check if there is a treasure:
     
-        if true, check if at treasure:
+**Assumes there is a treasure.**
 
-            if true, return true
+    check if at treasure:
 
-            if false, take a step
+      if true, return true
 
-                      check if step is legal:
+      if false, take a step
 
-                          if true, recurse/repeat
+                check if step is legal:
+
+                  if true, recurse/repeat
    
-                          if false, go back a step
+                  if false, go back a step
                               
-                                    recurse/repeat
-            
-        if false, return false
+                            recurse/repeat            
         
 ## Class(es), with fields and methods
 
