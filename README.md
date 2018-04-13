@@ -28,17 +28,17 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
     
     check if at treasure:
 
-      if true, return true
+      if true, print (Solved)
 
-      if false, take a step
+      if false, take a step EAST
 
                 check if step is legal:
 
-                  if true, recurse/repeat
+                  if true, recurse
    
                   if false, go back a step
                               
-                            recurse/repeat            
+                            recurse with a legal direction
         
 ## Class(es), with fields and methods
 
@@ -52,8 +52,10 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
 
 ## Version*n* wish list
 
-* Be able to scan through entire maze first to check for treasure.
+* Be able to scan through entire maze first to check for the existence of a treasure.
+
+* Go through all possible paths that can be taken (like NQueens)
 
 ## Known Bugs
 
-* Can't solve a maze without a treasure.
+* Can't backtrack more than 1 step. (misses solutions due to the algorithm prioritizing moving EAST)
