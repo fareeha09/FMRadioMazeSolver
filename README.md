@@ -42,13 +42,25 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
         
 ## Class(es), with fields and methods
 
-* Maze
+<details>
+   <summary>Maze</summary>
+   <p>Fields</p>
+   <p>Methods</p>
 
-* UserOfMaze
+<details>
+   <summary>UserOfMaze</summary>
+   <p>Fields</p>
+   <p>Methods</p>
 
-* MazeSolver
+<details>
+   <summary>MazeSolver</summary>
+   <p>Fields</p>
+   <p>Methods</p>
 
-* UserOfMazeSolver
+<details>
+   <summary>UserOfMazeSolver</summary>
+   <p>Fields</p>
+   <p>Methods</p>
 
 ## Version*n* wish list
 
