@@ -43,6 +43,12 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
 ## Class(es), with fields and methods
 
 <details>
+   <summary>Displayer</summary>
+   <p>Fields: windowHeight, console</p>
+   <p>Methods: constructor, atTopOfWindow, lineSeparatorsIn</p>
+</details> 
+
+<details>
    <summary>Maze</summary>
    <p>Fields: TREASURE, WALL, STEPPING_STONE, EAST, NORTH, WEST, SOUTH, maze, MAX_RANKS, rankCount, explorerPosition</p>
    <p>Methods: constructors, toString, go, dropA, explorerIsOnA</p>
