@@ -65,3 +65,22 @@ public class MazeSolver {
 	}
     }
 }
+
+	
+    // private boolean hasTreasure( Maze maze) {
+	// if( ) {
+		// return true;
+	// }else{
+		// return false;
+	// }
+    // }
+}
+
+// for( int direction = 1; direction <= 8; direction*2) {
+// 	maze.go( direction);
+// 	if( maze.explorerIsOnA() == Maze.WALL) {
+// 		maze = new Maze( undo);
+// 	}else{
+// 		display( maze);
+// 	}
+// }
