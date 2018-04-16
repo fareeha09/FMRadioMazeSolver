@@ -87,3 +87,7 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
 ## Known Bugs
 
 * Can't backtrack more than 1 step. (misses solutions due to the algorithm prioritizing moving EAST)
+
+## v1
+
+In this version we can try to add ways for this program to get all the solutions.
