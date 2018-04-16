@@ -13,10 +13,10 @@ public class MazeSolver {
 	    System.out.println( solution + System.lineSeparator() +
 				"Starting from invalid position. No solutions."
 				+ System.lineSeparator());
-	// }else if( hasTreasure( solution) == false) {
-	//     System.out.println( solution + System.lineSeparator() +
-	// 			"Maze doesn't contain a treasure. No solutions."
-	// 			+ System.lineSeparator());
+	}else if( Maze.hasTreasure( solution) == false) {
+	    System.out.println( solution + System.lineSeparator() +
+				"Maze doesn't contain a treasure. No solutions."
+				+ System.lineSeparator());
 	}else if( solution.explorerIsOnA() == Maze.TREASURE) {
 	    System.out.println( solution + System.lineSeparator()
 				+ "Solved." + System.lineSeparator());
@@ -29,7 +29,7 @@ public class MazeSolver {
     private void solve( Maze maze) {
 	Maze undo = new Maze( maze);
 	int direction = 1;
-
+	    
 	if( maze.explorerIsOnA() != Maze.TREASURE) {
 	    maze.dropA( Maze.WALL);
 	    maze.go( direction);
@@ -64,21 +64,4 @@ public class MazeSolver {
 	    displayer.atTopOfWindow( m + "step " + step++);
 	}
     }
-	
-    // private boolean hasTreasure( Maze maze) {
-	// if( ) {
-		// return true;
-	// }else{
-		// return false;
-	// }
-    // }
 }
-
-// for( int direction = 1; direction <= 8; direction*2) {
-// 	maze.go( direction);
-// 	if( maze.explorerIsOnA() == Maze.WALL) {
-// 		maze = new Maze( undo);
-// 	}else{
-// 		display( maze);
-// 	}
-// }
