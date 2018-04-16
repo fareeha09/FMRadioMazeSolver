@@ -51,7 +51,7 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
 <details>
    <summary>Maze</summary>
    <p>Fields: TREASURE, WALL, STEPPING_STONE, EAST, NORTH, WEST, SOUTH, maze, MAX_RANKS, rankCount, explorerPosition</p>
-   <p>Methods: constructors, toString, go, dropA, explorerIsOnA</p>
+   <p>Methods: constructors, hasTreasure, toString, go, dropA, explorerIsOnA</p>
 </details> 
 
 <details>
@@ -90,4 +90,4 @@ Run if explorer starts in a valid position. **Assumes there is a treasure presen
 
 ## v1
 
-In this version we can try to add ways for this program to get all the solutions.
+In this version we try to add a method to pre-check the maze for the presence of a treasure.
