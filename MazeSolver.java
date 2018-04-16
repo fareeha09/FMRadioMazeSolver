@@ -13,7 +13,7 @@ public class MazeSolver {
 	    System.out.println( solution + System.lineSeparator() +
 				"Starting from invalid position. No solutions."
 				+ System.lineSeparator());
-	// }else if( ) {
+	// }else if( hasTreasure( solution) == false) {
 	//     System.out.println( solution + System.lineSeparator() +
 	// 			"Maze doesn't contain a treasure. No solutions."
 	// 			+ System.lineSeparator());
@@ -64,8 +64,6 @@ public class MazeSolver {
 	    displayer.atTopOfWindow( m + "step " + step++);
 	}
     }
-}
-
 	
     // private boolean hasTreasure( Maze maze) {
 	// if( ) {
