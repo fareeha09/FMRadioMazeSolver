@@ -104,7 +104,17 @@ public class Maze {
 	}
     }
 
-
+    public static boolean hasTreasure( Maze m) {
+	for( int rank = 0; rank < m.maze.length; rank++) {
+	    for( int file = 0; file < m.maze[ rank].length; file++) {
+		if( m.maze[rank][file] != null && m.maze[rank][file] == 0) {
+		    return true;
+		}
+	    }
+	}
+	return false;
+    }
+    
     /**
       @return a string representing of this instance
      */
@@ -188,7 +198,6 @@ public class Maze {
         if( explorerPosition == null) return WALL;
         else return maze[ explorerPosition.rank][ explorerPosition.file];
     }
-
 
     /**
        a pair of rank & file that can represent...
