@@ -10,5 +10,5 @@ public class UserOfMazeSolver {
                             , Integer.parseInt( commandLine[1])
                             , Integer.parseInt( commandLine[2])
                             );
-    }
+     }
 }
